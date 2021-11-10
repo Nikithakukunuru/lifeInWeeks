@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Count down Life </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <button class="btn" onclick="lifeInWeeks()"> Try It</button>
+      </body>
+  <script type="text/javascript">
+    function lifeInWeeks()
+    {
+      var age=prompt("enter your age in years");
+      var yearRemaining=90-age;
+      var days=yearRemaining*365;
+      var weeks=yearRemaining*52;
+      var months=yearRemaining*12;
+      document.write("You have "+days+" days, "+weeks+" weeks and "+months+" months remaining in life ");
+    }
+  </script>
+</html>
